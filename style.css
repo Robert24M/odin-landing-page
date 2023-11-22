@@ -1,7 +1,48 @@
+body {
+    background: black;
+}
+
 .main {
-    background: #222831;
+    background: #1a232f;
     display: flex;
     flex-direction: column;
+    padding: 0 100px 0 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.hero {
+    display: flex;
+    overflow: auto;
+}
+
+.hero > * {
+    flex-basis: 100%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column
+}
+
+.image {
+    height: auto;
+    max-width: 100%;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sec-text {
+    font-weight: 18px;
+    color: #e5e7eb;
 }
 
 .header {
