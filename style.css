@@ -51,3 +51,24 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+}
+
+.action {
+    color: red;
+}
+
+.image-box {
+    border: solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
